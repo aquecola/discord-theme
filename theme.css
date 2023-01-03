@@ -1,23 +1,22 @@
 @import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
 @import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@150&display=swap');
 
 :root {
-  --background-image: url(https://github.com/aquecola/discord-theme/berserk.jpg);
+  
+  --popout-modal-image: url(https://github.com/aquecola/discord-theme-berserk/blob/master/galaxy.jpg?raw=true);
+  --background-image: url(https://github.com/aquecola/discord-theme-berserk/blob/master/berserk.jpg?raw=true);
   --background-image-blur: 0px;
   --background-image-size: cover;
   --background-image-position: center right;
-  --popout-modal-image: var(--background-image);
-  --popout-modal-blur: 3px;
+  --popout-modal-blur: 20px;
   --popout-modal-size: cover;
-  --popout-modal-position: center;
-  --home-button-image: url('https://i.gifer.com/1aWd.gif');
-  --home-button-size: cover;
-  --home-button-position: center;
-  --serverlist-brightness: 0.7;
-  --left-brightness: 0.8;
+  --popout-modal-position: center left;
+  --font: Roboto;
+  --serverlist-brightness: 0.9;
+  --left-brightness: 0.9;
   --middle-brightness: 0.8;
-  --right-brightness: 0.8;
+  --right-brightness: 0.48;
   --popout-modal-brightness: 0.75;
   --gradient-primary: 103,58,183;
   --gradient-secondary: 63,81,181;
@@ -29,17 +28,4 @@
   --window-padding: 15px;
   --window-roundness: 10px;
   --update-notice-1: none;
-  --rs-small-spacing: 2px;
-  --rs-medium-spacing: 2px;
-  --rs-large-spacing: 2px;
-  --rs-small-width: 2px;
-  --rs-medium-width: 2px;
-  --rs-large-width: 2px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #43b581;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
-  --rs-phone-visible: block;
 }
